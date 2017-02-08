@@ -4,7 +4,8 @@
   "description": "retweet bot rescue dogs",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start":"dogbot.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Iamkenan/SvDgBt/issues"
   },
-  "homepage": "https://github.com/Iamkenan/SvDgBt#readme"
+  "homepage": "https://github.com/Iamkenan/SvDgBt#readme",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
 }
